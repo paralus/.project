@@ -1,0 +1,70 @@
+# .project metadata for Paralus
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "paralus"
+name: "Paralus"
+description: "Paralus is a free, open source tool that enables controlled, audited access to Kubernetes infrastructure and Zero trust Kubernetes with zero friction."
+type: "project"
+project_lead: "avinashpenmetsa" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#paralus"
+    link: "https://kubernetes.slack.com/messages/paralus"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2022-12-14T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/164" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/paralus/paralus"
+
+website: "https://www.paralus.io/"
+
+artwork: "https://landscape.cncf.io/logos/paralus.svg"
+
+adopters:
+  path: "https://github.com/paralus/paralus/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "paralus/paralus"
+
+social:
+  twitter: "https://twitter.com/paralus_"
+
+security:
+  policy:
+    path: "https://github.com/paralus/paralus/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/paralus/paralus/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/paralus/paralus/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/paralus/paralus/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/paralus/paralus/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/paralus/paralus/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
+# CLOMonitor Score: 74/100
+# Documentation: 97 | License: 75 | Best Practices: 68 | Security: 41
