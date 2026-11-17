@@ -24,7 +24,7 @@ repositories:
 
 website: "https://www.paralus.io/"
 
-artwork: "https://landscape.cncf.io/logos/paralus.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/paralus"
 
 adopters:
   path: "https://github.com/paralus/paralus/blob/main/ADOPTERS.md"
